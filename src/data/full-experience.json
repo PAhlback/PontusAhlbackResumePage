@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "workplace": "Pontus Ahlbäck, gitarr & musik",
+        "title": "Entrepreneur/freelancer",
+        "duration": "May 2015 - Now",
+        "location": "Sweden",
+        "description": "Self employed as a freelance musician, teacher, and video producer. I started in 2015 with freelancing and teaching, and in 2020 I branched out by adding video production. Since starting my freelance work I have played between 10-20 concerts a year, mainly in Stockholm, but also around Södermanland, and in Arvika. In 2018 I rented an office for teaching near Vanadisplan, and soon after I was hired to head the guitar education at Musikskolan Lilla Akademiens voluntary instrument education on saturdays - Lilla Musica and Lilla Corda. I began producing videos during the covid19 pandemic, mainly because my students weren't able to play concerts. Since then I've been producing videos for other musicians."
+    },
+    {
+        "id": 2,
+        "workplace": "Botkyrka Kulturskola",
+        "title": "Guitar and ensemble teacher",
+        "duration": "January 2017 - Now",
+        "location": "Botkyrka",
+        "description": "Teacher in guitar and guitar orchestra. Since 2022 I've been producing the Stora Gitarrorkesterdagen, which is a project where several schools from the greater Stockholm metropolitan area meet once a year to rehearse and perform together. The first year five schools and around 45 guitarists participated."
+    },
+    {
+        "id": 3,
+        "workplace": "Musikskolan Lilla Akademien",
+        "title": "Guitar and ensemble teacher",
+        "duration": "August 2021 - June 2023",
+        "location": "Stockholm",
+        "description": "Teacher in guitar and ensemble at Musikskolan Lilla Akademiens elementary school, upper secondary school, and pre-college."
+    },
+    {
+        "id": 4,
+        "workplace": "Arte della Musica",
+        "title": "Guitar and ensemble teacher",
+        "duration": "August 2019 - June 2023",
+        "location": "Stockholm",
+        "description": "Teacher in guitar and ensemble at Arte della Musicas (Musikskolan Lilla Akademins voluntary education) Lilla Musica, for children age 10-15, and Lilla Corda, for children age 6-9."
+    },
+    {
+        "id": 5,
+        "workplace": "Qwork Sweden AB",
+        "title": "Store employee",
+        "duration": "September 2012 - January 2013",
+        "location": "Stockholm",
+        "description": "Store employee for a recruitment agency. The work mainly consisted of stocking shelves at ICA. After a couple of months I was tasked with leading shifts when the actual shift leader was absent."
+    }
+]

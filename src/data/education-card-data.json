@@ -1,0 +1,26 @@
+[
+    {
+        "nameOfSchool": "Chas Academy",
+        "programName": "Fullstack .NET",
+        "credits": "410 yhp",
+        "duration": "August 2023 - June 2025",
+        "location": "Stockholm",
+        "description": "Fullstack Web Development education, with a focus on .NET and Microsoft services."
+    },
+    {
+        "nameOfSchool": "University College of Music Education in Stockholm",
+        "programName": "Pedagogic degree - Kulturskoleklivet",
+        "credits": "90hp",
+        "duration": "August 2018 - June 2020",
+        "location": "Stockholm",
+        "description": "Pedagogic degree for working in Kulturskolan, as part of the Kulturskoleklivet initiative."
+    },
+    {
+        "nameOfSchool": "Royal College of Music",
+        "programName": "Degree of Master in Music",
+        "credits": "120 credits",
+        "duration": "August 2016 - June 2018",
+        "location": "Stockholm",
+        "description": "Degree of Master in Music with a specialization in solo performance and chamber music."
+    }
+]

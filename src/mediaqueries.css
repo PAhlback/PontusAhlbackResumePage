@@ -1,0 +1,180 @@
+@media (max-width: 900px) {
+/******************** GENERAL **********************/
+    .full-resume-button {
+        max-width: 70vw;
+        padding: 1rem 2rem;
+        z-index: 0;
+    }
+
+    .short-resume-header {
+        padding-bottom: 0.5rem;
+    }
+
+/******************** HEADER **********************/
+    .page-header {
+        background-color: #22222200;
+        box-shadow: none;
+    }
+
+    .menuToggle {
+        z-index: 99;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 3rem;
+        width: 3rem;
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+
+    .primary-nav {
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        background-color: #222222c2;
+    }
+
+    .secondary-nav {
+        position: fixed;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        bottom: 50%;
+        z-index: 2;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+
+    .navbar-separator {
+        display: none;
+    }
+
+
+
+
+/******************** INTRODUCTION **********************/
+    .hero-image {
+        background-position: 70%;
+        min-height: 100vh;
+    }
+
+    .page-intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .introduction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 80% 1rem 2rem;
+        margin-top: 80%;
+        color: black;
+        background-color: #ffffff;
+        border-radius: 10px;
+    }
+    .introduction h1 {
+        text-shadow: none;
+    }
+    .introduction p {
+        width: 90%;
+        text-shadow: none;
+        font-size: 1.1rem;
+    }
+
+
+/******************** ABOUT **********************/
+    .about-wrapper {
+        flex-direction: column;
+        padding: 5% 13%;
+        margin: 2rem 0;
+    }
+    .about-text {
+        margin: 0;
+    }
+    .about-picture {
+        max-width: 80vw;
+    }
+
+
+/******************** RESUMÉ **********************/
+    .resume {
+        padding-top: 3rem;
+    }
+
+    .resume-sub-title {
+        padding-top: 1.5rem;
+    }
+
+    .experience-card {
+        max-width: 84%;
+    }
+
+/******************** PROJECTS **********************/
+    .projects {
+        flex-flow: nowrap column;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .project-card {
+        max-width: 100%;
+    }
+
+/******************** FOOTER **********************/
+    .footer {
+        justify-content: center;
+    }
+
+    .footer .copyright {
+        display: none;
+    }
+
+/******************** FULL RESUME PAGE **********************/
+    .full-resume-introduction {
+        flex-direction: column;
+    }
+    .full-resume-introduction img {
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+    .full-resume-ingress p {
+        max-width: 350px;
+        padding-bottom: 1rem;
+    }
+
+    .full-resume-wrapper {
+        flex-direction: column;
+    }
+    .full-resume-line {
+        display: none;
+    }
+    .full-resume-education,
+    .full-resume-experience {
+        max-width: 100%;
+    }
+
+}
+

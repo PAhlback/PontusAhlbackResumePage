@@ -1,0 +1,26 @@
+[
+    {
+        "headline": "Teaching",
+        "description": "Since getting my pedagogy degree, I have taught at several schools, both in the public and private sectors. From 2018 - 2023 I also taught privately via my own company.",
+        "experience": [
+            "Private tutoring at Pontus Ahlbäck, guitar & music (2015 - Now)",
+            "Botkyrka Kulturskola (2017 - Now)",
+            "Musikskolan Lilla Akademien (2020-2023)",
+            "Arte della Musica (2019 - 2023)"
+        ]
+    },
+    {
+        "headline": "Freelancing",
+        "description": "Since starting my own business in 2015 I have been performing regularly as a soloist and chamber musician. I’ve also worked as a private teacher. In 2020 I also began producing videos, mainly for publishing concerts and performing arts videos.",
+        "experience": [
+            
+        ]
+    },
+    {
+        "headline": "Web Development",
+        "description": "In 2023 I started studying to become a web developer. I am expected to graduate by June 2025. So far it’s been a lot of fun! Scroll down, or click the button below, to see my projects.",
+        "experience": [
+            
+        ]
+    }
+]

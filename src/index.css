@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/******************** GENERAL **********************/
+h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.full-resume-button {
+  position: relative;
+  margin: 1rem;
+  display: flex;
+  padding: 1.5rem 2.5rem;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 0;
+
+  border-radius: 25px;
+  border: 1px solid #afafaf;
+  background: linear-gradient(92deg, #0697FF 14.21%, #00D13B 99.74%);
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.full-resume-button:hover {
+  background: linear-gradient(92deg, #0697FF 50%, #00D13B 99.74%);
+}
+.full-resume-button h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.full-resume-button:active {
+  background: linear-gradient(92deg, #00D13B 15%, #0697FF 70%);
+}
+.button-arrow {
+  padding-top: 5px;
+  transition: margin-left 0.8s;
+}
+.full-resume-button:hover .button-arrow {
+  margin-left: 1rem;
+}
+
+
+/******************** INTRODUCTION **********************/
+.hero-image {
+  min-height: 100vh;
+  background-image: url('./assets/images/PontusAhlbckHandelslunchkonsert2.jpg');
+  background-size: cover;
+  background-repeat: none;
+}
+
+.introduction {
+  color: white;
+  padding-top: 70vh;
+  padding-left: 10vw;
+  font-family: inter;
+}
+.introduction h1 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px black;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.introduction p {
+  width: 21vw;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black;
+}
+.scroll-down-arrow{
+  color: white;
+  position: absolute;
+  font-size: 2rem;
+  bottom: 1rem;
+  left: 50%;
+}
+
+/******************** ABOUT **********************/
+.about-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 20%;
+  font-family: inter;
+}
+.about-text {
+  margin-right: 10%;
+}
+
+.about-text p {
+  line-height: 1.8;
+}
+.about-picture {
+  max-height: 80vh;
+}
+
+/******************** RESUMÉ **********************/
+.resume {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5% 0;
+  background-color: #e9e9e9;
+}
+
+.work-experience {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+/* EDUCATION */
+.education {
+  background-color: white;
+}
+
+/******************** PROJECTS **********************/
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9e9e9;
+  min-height: 100vh;
+}
+.projects-wrapper h2 {
+  padding-top: 2rem;
+}
+.projects-introduction {
+  margin: 0 1rem;
+}
+
+.projects {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin: 1rem 10%;
+}
+
+.project-card {
+  max-width: 30%;
+  margin: 1rem;
+}
+.project-card h3,
+.project-card p {
+  padding-bottom: 0.8rem;
+}
+.project-card h6 {
+  padding: 0.5rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.project-card a {
+  text-decoration: none;
+}
+.project-card-image {
+  width: 100%;
+  padding: 1rem;
+}
+
+.loading-projects {
+  padding-top: 10rem;
+}
+
+/******************** FOOTER **********************/
+.footer {
+  background-color: #222;
+  color: white;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li {
+  text-decoration: none;
+  padding: 0 1rem;
+}
+.footer a {
+  color: white;
+  font-size: 2rem;
+}
+.footer a:hover {
+    color: #747bff;
+}
+
+
+/******************** FULL RESUME PAGE **********************/
+.full-resume-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 4rem;
+}
+
+.full-resume-introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-resume-introduction img {
+  margin: 2rem 4rem 0 0;
+}
+.full-resume-ingress p {
+  max-width: 350px;
+}
+
+.full-resume-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+.full-resume-line {
+  border: 1px solid black;
+  margin: 0 1rem;
+}
+.full-resume-education,
+.full-resume-experience {
+  max-width: 50%;
+}

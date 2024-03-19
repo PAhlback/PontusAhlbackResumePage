@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "nameOfSchool": "Chas Academy",
+        "programName": "Fullstack .NET",
+        "credits": "410 yhp",
+        "duration": "August 2023 - June 2025",
+        "location": "Stockholm",
+        "description": "Fullstack Web Development education, with a focus on .NET and Microsoft services. The program is mainly focused on C#, .NET and Microsofts tools for developers, but also contains frontend technologys including, but not limited to, HTML, CSS, JavaScript, React, React Vite, and Bootstrap."
+    },
+    {
+        "id": 2,
+        "nameOfSchool": "University College of Music Education in Stockholm",
+        "programName": "Pedagogic degree - Kulturskoleklivet",
+        "credits": "90hp",
+        "duration": "August 2018 - June 2020",
+        "location": "Stockholm",
+        "description": "Pedagogic degree for working in Kulturskolan, as part of the Kulturskoleklivet initiative."
+    },
+    {
+        "id": 3,
+        "nameOfSchool": "Royal College of Music",
+        "programName": "Degree of Master in Music",
+        "credits": "120 credits",
+        "duration": "August 2016 - June 2018",
+        "location": "Stockholm",
+        "description": "Degree of Master in Music with a specialization in solo performance and chamber music."
+    },
+    {
+        "id": 4,
+        "nameOfSchool": "Royal College of Music",
+        "programName": "Degree of Bachelor in Music",
+        "credits": "180 credits",
+        "duration": "August 2013 - June 2016",
+        "location": "Stockholm",
+        "description": "Degree of Bachelor in Music with a specialization in solo performance and chamber music."
+    },
+    {
+        "id": 5,
+        "nameOfSchool": "Nordiska Musikgymnasiet",
+        "programName": "Specially designed program in classical music",
+        "credits": "2500 credits",
+        "duration": "August 2009 - June 2012",
+        "location": "Stockholm",
+        "description": "Upper secondary school education, with a focus on classical music."
+    },
+    {
+        "id": 6,
+        "nameOfSchool": "Tunaskolan",
+        "programName": "Elementary school",
+        "credits": "",
+        "duration": "August 2000 - June 2009",
+        "location": "Tumba",
+        "description": "Elementary school."
+    }
+]

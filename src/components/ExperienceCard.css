@@ -1,0 +1,42 @@
+.experience-card {
+    max-width: 60%;
+    padding: 1rem 1.5rem 0;
+    color: black;
+    margin: 1rem 1rem;
+}
+
+.exp-head {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.exp-desc {
+    border-top: 1px solid black;
+}
+
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 0.9rem;
+}
+
+.program-name {
+    font-size: 1rem;
+
+}
+.program-dur {
+    font-size: 0.9rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.education-card {
+    max-width: 70%;
+}

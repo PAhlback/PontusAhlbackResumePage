@@ -1,0 +1,63 @@
+.page-header {
+    position: fixed;
+    display: flex;
+    top: 1rem;
+    right: 5rem;
+    align-items: center;
+    font-family: inter;
+    color: white;
+    border-radius: 10px;
+    background-color: #222;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.678);
+    z-index: 99;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.navbar li {
+    padding: 0 1rem;
+}
+.navbar li a {
+    text-decoration: none;
+}
+
+.menuToggle {
+    position: fixed;
+    right: 1rem;
+    top: 1rem;
+    padding-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.primary-nav,
+.secondary-nav {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    height: 3rem;
+}
+.primary-nav .navlink {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-separator {
+    border: 1px solid white;
+    margin: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.scroll-link {
+    color: white;
+    font-size: 1rem;
+}
+.scroll-link:hover,
+.navlink:hover {
+    color: #0697FF;
+}
+.scroll-link:active {
+    color: #004b81;
+}
