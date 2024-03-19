@@ -7,7 +7,7 @@ import FullResumePage from './pages/FullResumePage.jsx'
 function App() {
   return (
     <>
-      <BrowserRouter basename='/cvsida-scroll-react'>
+      <BrowserRouter basename='/PontusAhlbackResumePage'>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
